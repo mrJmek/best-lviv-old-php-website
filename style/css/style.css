@@ -1,0 +1,464 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	size: auto;
+}
+
+body {
+ 	color: #505050;
+    font-family:"Segoe UI Light","Calibri";
+	width: 100%;
+	height: 100%;
+	size: auto;
+}
+
+/*----------header----------*/
+
+#header {
+	width: 100% !important;
+	width: auto;
+	height: 100%;
+	height: auto !important;
+}
+
+.logo {
+	width: 900px;
+	margin: 0 auto;
+	height: auto !important;
+	height: 100%;
+	margin:0 auto;
+}
+#menu {
+	width: 900px;
+	margin: 0 auto;
+	height: auto !important;
+	height: 100%;
+	margin:0 auto;
+}
+
+/*----------wrapper----------*/
+
+#wrapper {
+	width:900px;
+	height: 100%;
+	height: auto !important;
+	margin:0 auto;
+}
+
+.wrapper_img {
+	width:900px;
+	height: 300px;
+	margin:0 auto;
+}
+
+/*----------footer----------*/
+
+#footer {
+	width: 100% !important;
+	width: auto;
+	height: 100%;
+	height: auto !important;
+	background-color:#ededed;
+}
+
+.footer_info {
+	width:900px;
+	height: 100%;
+	height: auto !important;
+	margin:0 auto;
+}
+
+/*----------nav----------*/
+
+#nav{
+	display: block;
+	left: 40px;
+	top: 100px;
+	height: 20px;
+	padding-top:15px; /*Відступ від логотипу до меню*/
+	padding-bottom:10px;
+	 font-weight: lighter;
+}
+
+#nav li{
+	display: block;
+	float: left;
+	height: 40%;
+	margin-left: 4px;
+	margin-right: 4px;
+	z-index: 8;
+
+}
+
+#nav>li>a{
+	color: gray;
+	height: 24px;
+	padding: 0px 15px 0px 0px;
+	font-size: 18px;
+
+}
+
+#nav li a:hover{ color: #1570A6; }
+#nav li.current_page_item a{ color: black; }
+
+/* sub nav */
+
+#nav li ul{
+	padding:0px;
+	background: gray;
+}
+
+#nav>li>ul{
+	margin: 47px 0px 0px 0px;
+}
+
+#nav li ul li{
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid #fff;
+}
+
+#nav li ul li:last-child{
+	border-bottom: none;
+}
+
+#nav li ul li a{
+	padding: 10px;
+	margin: 0px;
+	font-size: 14px;
+	color: #1f1f1f;
+}
+
+#nav li ul li:hover{ background: #1f1f1f; }
+
+#nav li ul li:hover a{ color: #fff; }
+
+ul.fL {
+	padding-left:45px;
+}
+
+li {
+	list-style:none;
+}
+
+li.mark {
+	list-style:inherit;
+}
+/*----------fonts&links----------*/
+
+.page_title{
+	font-size:22pt;
+	color:##5A5A5A;
+
+}
+
+.page_wrapper{
+font-size:18pt;
+}
+
+h1, h2, h3, h4 {
+    color:#5A5A5A;
+    font-weight: lighter;
+    line-height: 1.25;
+
+}
+
+h1 {
+	font-size: 2em;
+    margin-bottom: 0.25em;
+}
+
+h2 {
+    font-size: 1.625em;
+    margin-bottom: 0.35em;
+}
+
+h3 {
+	margin-bottom: 0.45em;
+}
+
+h4 {
+    font-size: 1.625em;
+	margin-bottom: 0.55em;
+}
+
+h5 {
+    font-size: 1em;
+	margin-bottom: 0.65em;
+}
+
+h6 {
+    font-size: 1em;
+	margin-bottom: 0.75em;
+}
+
+a{
+	text-decoration: none;
+	color: #1973BE;
+}
+
+a:hover{
+	color: #69CD28;
+}
+
+p{
+    font-family:"Segoe UI Light", "Calibri";
+	line-height: 18pt;
+	font-weight:lighter;
+	text-indent: 30px;
+}
+
+
+
+b {
+	font-weight:bold;
+}
+
+/*----------button----------*/
+
+.link-button{
+	padding: 2px 5px 2px 5px;
+	text-align:center;
+	font-size: 18px;
+	color: #ffffff;
+	background: #1973BE;
+}
+	
+.link-button span{
+	display: block;s
+	height: 100% ;
+	padding-top: 8px;
+	padding-right: 10px;
+	padding-left: 5px;
+	background: url(../img/yellow/sprites.png)  no-repeat right -132px;
+}
+
+/*----------styled----------*/
+
+img.left-align{
+	float:left;
+	margin:8px 18px 18px 0;
+	display: block;
+}
+
+img.right-align{
+	float:right;
+	margin:0px 0px 0px 10px;
+	display: block;
+}
+
+img.boxed{
+	background: white;
+	padding: 5px;
+	border: 1px solid #cccccc;
+}
+
+img.border{
+	border: 2px solid white;
+}
+img.fR {
+	float:right;
+	padding:15px;
+}
+img.fL {
+	float:left;
+	padding:15px;
+}
+
+img
+{
+margin:0 0 0 0;
+}
+
+img.social {
+	padding:3px;
+	width: 30px;
+	height: 30px;
+}
+
+.shadow-img{
+	display: block;
+	padding-bottom: 22px;
+	background: url(../img/thumb-shadow.png) no-repeat bottom center ;
+}
+
+.dropcap {
+	display:block;
+	float:left;
+	font-size:40px;
+	line-height:40px;
+	margin:0 8px 0 0;
+}
+
+.highlight {
+	background:yellow;
+	color:#111111;
+	padding:1px 4px;
+}
+
+.pullquote-right,
+.pullquote-left {
+	border-left: #555555 2px solid;
+	float:right;
+	font-size:16px;
+	line-height:1.5em;
+	margin: 20px 0px 20px 20px;
+	padding:0 0 0 20px;
+	width:33%;
+	font-style: italic;
+}
+
+.pullquote-left {
+	float:left;
+	margin: 20px 20px 20px 0px;
+}
+
+.pullquote-right{
+	border-left: none;
+	border-right: #555555 2px solid;
+}
+
+
+/* TABLE ------------------------------------------------------------*/
+
+table {
+	border-collapse:separate;
+	border-spacing:0;
+	width:100%;
+	text-align: left;
+	padding:0px 0px 0px 0px;
+	border-width:15px;
+	border-left:solid#ededed;
+	border-left-width:0px;
+	border-right:solid#ededed;
+	border-right-width:0px;
+	border-top:solid#ededed;
+	border-top-width:0px;
+}
+
+tr {
+	padding:15px;
+}
+
+td {
+	size:auto;
+	padding:5px 15px 5px 15px;
+	border-left:solid#ededed;
+	border-left-width:0px;
+	border-right:solid#ededed;
+	border-right-width:0px;
+	vertical-align: top;
+}
+td.images {
+	padding:15px;
+}
+
+hr {
+	border:0px;
+	color:#ededed;
+	background-color:#ededed;
+	width:80%;
+	height:3px;
+}
+
+.tumblr_body {
+     }
+.tumblr_posts{
+width: 60%;
+}
+.tumblr_title{
+font-weight:bold;
+}
+	 
+	.tumblr {
+position:absolute;
+width:2000px;
+height:1000px;
+z-index:1;
+left: 122px;
+top: 162px;
+}
+.tumblr li {
+margin-bottom: 1em;
+margin-right: 10px;
+width:200%;
+float:left;
+}
+.twitterAdd {
+	bottom: 33px;
+	font-size: 12px;
+	position: absolute;
+}
+.twitty {
+	position: absolute;
+	right: 0;
+	top: 4px;
+}
+.twtr-widget .twtr-hd, .twtr-widget .twtr-ft {
+	display: none;
+}
+.twitterHolder {
+	background-image: url("/resources/images/twitt_bg1.png");
+	height: 140px;
+	overflow: hidden;
+}
+.twitterContent {
+	background-image: url("/resources/images/twitt_bg2.png");
+	background-repeat: no-repeat;
+	height: 120px;
+	margin: 0 auto;
+	padding-top: 30px;
+	width: 955px;
+}
+.twitterTitle {
+	float: left;
+	height: 115px;
+	position: relative;
+	width: 175px;
+}
+.twitterTitle h1 {
+	color: #CCCCCC;
+	margin: 0;
+}
+.twtr-widget .twtr-tweet-wrap {
+	font-family: 'Droid Sans',arial,serif;
+	overflow: hidden;
+	padding: 6px 8px;
+	width: 230px;
+}
+#twtr-widget-1 .twtr-new-results, #twtr-widget-1 .twtr-results-inner, #twtr-widget-1 .twtr-timeline {
+	background: none repeat scroll 0 0 transparent !important;
+}
+#twtr-widget-1 .twtr-doc, #twtr-widget-1 .twtr-hd a, #twtr-widget-1 h3, #twtr-widget-1 h4, #twtr-widget-1 .twtr-popular {
+	color: #FFFFFF !important;
+}
+#twtr-widget-1 .twtr-bd, #twtr-widget-1 .twtr-timeline i a, #twtr-widget-1 .twtr-bd p {
+	line-height: 15px !important;
+}
+.twtr-widget .twtr-tweet-wrap {
+	overflow: hidden;
+	padding: 0 !important;
+}
+.twtr-widget .twtr-tweet {
+	border-bottom: 1px dotted #DDDDDD;
+	float: left;
+	overflow: hidden;
+	width: 210px;
+}
+.twtr-widget a {
+	color: #1973BE;
+	text-shadow: none;
+
+}
+
+.twtr-tweet-wrap {
+	height: 130px;
+}
